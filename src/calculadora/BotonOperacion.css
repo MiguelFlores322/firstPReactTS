@@ -1,0 +1,96 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #4C5574  ;
+}
+.operaciones{
+    display: flex;
+    flex-direction: column;
+  
+}
+.operaciones button:hover{
+    background-color: #81FFF7;
+}
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+}
+.igualceroyc .cero{
+    width: 100px;
+    background-color: #DFE3FF;
+}
+/* botones igual, cero y C*/
+.igualceroyc button{
+   
+    background-color: #859EF9 ;
+}
+.igualceroyc button:hover{
+    background-color: #81FFF7 ;
+}
+.numeros button:hover{
+    background-color: #81FFF7;
+
+}
+.calculadora button{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    font-family: 'Courier New';
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #859EF9 ;
+}
+.calculadora{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-style: solid ;
+}
+.botonesTotales{
+    display: flex;
+    flex-direction: row;
+  
+}
+.borde{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-style: solid ;
+    padding: 40px 30px;
+    border-radius: 30px;
+    background-color:#E8F8FF  ;
+    
+
+    
+}
+
+.mostrarResultado input{
+    font-size: 40px;
+    text-align: right;
+    border-radius: 20px;
+    font-family: 'Courier New';
+    width: 450px;
+   
+    
+}
+.numeros button{
+    background-color: #DFE3FF;
+}
+.mostrarResultado{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mostrarResultado input{
+    padding-right: 30px;
+    
+}
+
+
